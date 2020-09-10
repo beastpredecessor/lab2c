@@ -38,7 +38,7 @@ int main(void) {
   else if (gpa>=60){
     printf("Your letter grade for CMPSC 131 is D.");
   }
-  elseif (gpa<60){
+  else if (gpa<60){
     printf("Your letter grade for CMPSC 131 is F.");
   }
  return 0;
