@@ -23,5 +23,23 @@ int main(void) {
   else if (gpa >=87){
     printf("Your letter grade for CMPSC 131 is B+.");
   }
-  return 0;
+  else if (gpa >=83){
+    printf("Your letter grade for CMPSC 131 is B.");
+  }
+  else if (gpa>=80){
+    printf("Your letter grade for CMPSC 131 is B-.");
+  }
+  else if (gpa>=77){
+    printf("Your letter grade for CMPSC 131 is C+.");
+  }
+  else if (gpa>=70){
+    printf("Your letter grade for CMPSC 131 is C.");
+  }
+  else if (gpa>=60){
+    printf("Your letter grade for CMPSC 131 is D.");
+  }
+  elseif (gpa<60){
+    printf("Your letter grade for CMPSC 131 is F.");
+  }
+ return 0;
 }
